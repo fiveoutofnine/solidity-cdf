@@ -89,7 +89,7 @@ library GaussianYul {
             // ```
             let x := sdiv(mul(sub(_x, _mu), 0xb504f333f9de6484597d89b3), _sigma)
 
-            // Divider result by 2.
+            // Divide result by 2.
             r := shr(1, erfc(x))
         }
     }
