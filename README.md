@@ -3,7 +3,7 @@
 A Solidity implementation of the CDF function with 1e-8 precision.
 
 The implementation uses a $(14, 5)$-term rational approximation optimized to minimize its maximum error with the Remez algorithm.
-See [`Gaussian`](https://github.com/fiveoutofnine/solidity-cdf/blob/main/src/Gaussian.sol) for a more detailed explanation and breakdown of a few minor optimizations.
+See [`Gaussian`](https://github.com/fiveoutofnine/solidity-cdf/blob/main/src/Gaussian.sol)/[`GaussianYul`](https://github.com/fiveoutofnine/solidity-cdf/blob/main/src/GaussianYul.sol) for a more detailed explanation and breakdown of a few minor optimizations.
 
 <details>
     <summary>View computed parameters</summary>
